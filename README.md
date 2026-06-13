@@ -1,93 +1,104 @@
-````markdown
 # 🤖 AI-Based Code Review
 
-An AI-powered code review system that automatically analyzes code for improvements, bug detection, formatting, and performance suggestions using Natural Language Processing and Machine Learning techniques.
+An AI-powered code review application that helps developers improve code quality by automatically analyzing source code and providing intelligent suggestions for readability, performance, maintainability, and best practices.
 
-## 🔍 Overview
+## 🚀 Features
 
-This project is designed to simulate a basic code review tool that takes in source code and provides feedback on:
-
-- Code quality
-- Readability
-- Potential bugs
-- Optimization suggestions
-- Adherence to best practices
-
-## 📦 Features
-
-- ✅ Support for Python (add more languages as needed)
-- 🤖 AI-based suggestions using NLP models
-- 📄 Easy-to-use input interface (CLI or Web UI)
-- 📈 Continual learning capability (optional)
+* AI-powered code analysis
+* Code quality and readability suggestions
+* Bug and issue detection
+* Performance optimization recommendations
+* Best practice validation
+* Interactive user interface
+* Real-time feedback generation
 
 ## 🛠️ Tech Stack
 
-- Python
-- Flask / Streamlit (choose depending on your UI)
-- OpenAI GPT / Custom-trained ML model
-- BeautifulSoup / regex for code parsing
-- GitHub for version control
+### Frontend
 
-## 🚀 Getting Started
+* HTML
+* CSS
+* JavaScript
 
-### Prerequisites
+### Backend
 
-Make sure you have the following installed:
+* Node.js
+* Express.js
 
-- Python 3.8+
-- pip
+### AI Integration
 
-### Installation
+* Large Language Models (LLMs)
+* Natural Language Processing
+
+## 📂 Project Structure
+
+```text
+AI-Based-Code-Review/
+├── Frontend/
+├── Backend/
+├── README.md
+└── Additional Files
+```
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/ShridhiGupta/AI-Based-Code-Review.git
-cd AI-Based-Code-Review
-pip install -r requirements.txt
-````
+```
 
-### Run the App
+Navigate to the project:
 
 ```bash
-python app.py
-# or if using Streamlit:
-streamlit run app.py
+cd AI-Based-Code-Review
 ```
 
-## 🖥️ Example Usage
+Install dependencies:
 
-1. Paste your code in the input field.
-2. Click "Review Code".
-3. Get suggestions instantly with explanation.
-
-## 📁 Project Structure
-
-```
-AI-Based-Code-Review/
-├── app.py
-├── utils/
-│   ├── analyzer.py
-│   └── nlp_model.py
-├── templates/ (if Flask)
-│   └── index.html
-├── static/
-│   └── styles.css
-├── README.md
-└── requirements.txt
+```bash
+npm install
 ```
 
-## 🧠 Future Improvements
+Start the application:
 
-* Add support for C++, Java, and JavaScript
-* Integrate GitHub webhook to auto-review pull requests
-* Improve model feedback accuracy
-* Support for inline code annotation
+```bash
+npm start
+```
+
+## 💡 How It Works
+
+1. Paste or upload source code.
+2. Submit the code for review.
+3. The AI analyzes the code structure and logic.
+4. Receive suggestions for:
+
+   * Code quality improvements
+   * Bug fixes
+   * Optimization opportunities
+   * Better coding practices
+
+## 🎯 Use Cases
+
+* Learning and improving coding skills
+* Reviewing personal projects
+* Identifying common coding mistakes
+* Improving code maintainability
+* Enhancing software quality
+
+## 🔮 Future Enhancements
+
+* Multi-language support
+* GitHub Pull Request integration
+* Security vulnerability detection
+* Inline code annotations
+* Team collaboration features
+* Advanced performance analysis
 
 ## 🤝 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Contributions, suggestions, and improvements are welcome.
 
 ## 📄 License
 
-[MIT License](LICENSE)
-
----
+MIT License
