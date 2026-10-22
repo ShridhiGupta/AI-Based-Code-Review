@@ -12,7 +12,7 @@ An AI-powered code review application that helps developers improve code quality
 * Interactive user interface
 * Real-time feedback generation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -30,7 +30,7 @@ An AI-powered code review application that helps developers improve code quality
 * Large Language Models (LLMs)
 * Natural Language Processing
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AI-Based-Code-Review/
