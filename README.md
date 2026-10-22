@@ -1,8 +1,8 @@
-# 🤖 AI-Based Code Review
+# AI-Based Code Review
 
 An AI-powered code review application that helps developers improve code quality by automatically analyzing source code and providing intelligent suggestions for readability, performance, maintainability, and best practices.
 
-## 🚀 Features
+## Features
 
 * AI-powered code analysis
 * Code quality and readability suggestions
