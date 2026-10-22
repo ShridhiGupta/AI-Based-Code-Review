@@ -40,7 +40,7 @@ AI-Based-Code-Review/
 └── Additional Files
 ```
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -66,7 +66,7 @@ Start the application:
 npm start
 ```
 
-## 💡 How It Works
+## How It Works
 
 1. Paste or upload source code.
 2. Submit the code for review.
