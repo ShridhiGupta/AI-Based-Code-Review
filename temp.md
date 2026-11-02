@@ -17,6 +17,5 @@ return a + b;
 ```
 
 Improvements:
-
 * The function now accepts `a` and `b` as parameters, allowing it to correctly calculate their sum.
 * The function now returns the sum of `a` and `b`.
