@@ -9,7 +9,6 @@ arguments.
 * There are not any parameters being passed into the `sum` function.
 
 Recommended Fix:
-
 ```javascript
 function sum(a, b) {
 return a + b;
