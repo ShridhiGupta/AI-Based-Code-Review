@@ -1,14 +1,14 @@
-❌ Bad Code:
+Bad Code:
 ```javascript
 function sum(){return a + b;}
 ```
 
-🔍 Issues:
-* ❌ The function `sum` attempts to add `a` and `b` without them being defined within the function's scope or passed as
+Issues:
+* The function `sum` attempts to add `a` and `b` without them being defined within the function's scope or passed as
 arguments.
-* ❌ There are not any parameters being passed into the `sum` function.
+* There are not any parameters being passed into the `sum` function.
 
-✅ Recommended Fix:
+Recommended Fix:
 
 ```javascript
 function sum(a, b) {
@@ -16,7 +16,7 @@ return a + b;
 }
 ```
 
-💡 Improvements:
+Improvements:
 
-* ✔️ The function now accepts `a` and `b` as parameters, allowing it to correctly calculate their sum.
-* ✔️ The function now returns the sum of `a` and `b`.
+* The function now accepts `a` and `b` as parameters, allowing it to correctly calculate their sum.
+* The function now returns the sum of `a` and `b`.
